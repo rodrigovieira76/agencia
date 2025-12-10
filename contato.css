@@ -1,0 +1,19 @@
+body{
+    background: rgb(245, 235, 235);
+}
+button{
+    background-color: aquamarine;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: blueviolet;
+}
+div{
+    display: flex;
+}
+@media(max-width: 768px){
+    div{
+        flex-direction: column;
+    }
+}
