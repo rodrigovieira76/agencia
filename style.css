@@ -6,7 +6,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 15em;
+    gap: 10em;
     list-style-type: none;
 }
 a{
@@ -24,7 +24,7 @@ a:hover{
 @media (min-width: 768px) {
     ul{
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         list-style-type: none;
     }
     h1{
