@@ -6,7 +6,7 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 15px;
+    gap: 15em;
     list-style-type: none;
 }
 a{
@@ -31,7 +31,8 @@ a:hover{
         display: flex;
         justify-content: center;
     }
-    img{
-        margin-left: 627px;
+    div{
+        display: flex;
+        margin-left: 25em;
     }
 }
