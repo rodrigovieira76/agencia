@@ -11,6 +11,11 @@ button:hover{
 }
 div{
     display: flex;
+    margin-top: 2em;
+}
+
+img{
+    margin-bottom: 0,3em;
 }
 @media(max-width: 768px){
     div{
