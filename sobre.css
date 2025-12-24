@@ -1,0 +1,12 @@
+body{
+    background: rgb(245, 235, 235);
+}
+section{
+    display: flex;
+    margin-left: 1em;
+    margin-top: 0,3em;
+    margin-bottom: 1em;
+}
+p{
+    font-size: 18px;
+}
