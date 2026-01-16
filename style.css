@@ -2,14 +2,14 @@ body{
     background: rgb(245, 235, 235);
 }
 
-ul{
+.nav__list{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 7em;
     list-style-type: none;
 }
-a{
+.nav__link{
     box-shadow: 1px 1px 1px black;
     cursor: pointer;
     background-color: rgb(242, 48, 9);
@@ -31,7 +31,7 @@ p{
 }
 
 @media (min-width: 768px) {
-    ul{
+    .nav__list{
         flex-direction: row;
         justify-content: right;
         list-style-type: none;
